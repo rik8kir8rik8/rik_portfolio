@@ -26,15 +26,17 @@
         </a>
       </div>
     </div>
+    <EnterButton />
   </div>
 </template>
 
 <script>
 import Logo from '~/components/Logo.vue'
-
+import EnterButton from '~/components/EnterButton.vue'
 export default {
   components: {
-    Logo
+    Logo,
+    EnterButton
   }
 }
 </script>

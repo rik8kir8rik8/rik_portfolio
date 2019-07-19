@@ -1,8 +1,8 @@
 <template>
-    <div>
-        <div class='' @click='click'>
+    <div class='' @click='click'>
+    <input type='button'/>
     </div>
-
+    
 </template>
 
 <script>
