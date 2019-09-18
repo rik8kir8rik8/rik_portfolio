@@ -15,7 +15,7 @@ export default {
   name: 'skilltable',
   props: {
       title:String,
-      text:String,
+      text:Object,
       subtitle:String
   }
 }
@@ -49,6 +49,7 @@ export default {
           width: 70%;
                 display: table-cell;
                   vertical-align: middle;
+                  white-space:pre-wrap;
         }
       }
  }
@@ -80,6 +81,7 @@ export default {
           width: 70%;
                 display: table-cell;
                   vertical-align: middle;
+                  white-space:pre-wrap;
         }
       }
  }
@@ -111,6 +113,7 @@ export default {
           width: 70%;
                 display: table-cell;
                   vertical-align: middle;
+                  white-space: pre-wrap;
         }
       }
  }
