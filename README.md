@@ -1,4 +1,4 @@
-# ss_p
+# risako kikuchi's portfolio
 
 ## Project setup
 ```
