@@ -63,16 +63,16 @@ export default {
     padding-top:5%;
   }
     .box-sub{
-      display:none;
+      float:left;
     }
     .box-main{
       padding-top:20%;
       width:100%;
     }
   }
-  @media screen and (max-width: 479px) {
+  @media screen and (max-width: 480px) {
     .box-sub{
-      display:none;
+      margin-top:70%;
     }
     .box-main{
       padding-top:20%;

@@ -399,6 +399,26 @@ export default {
 	position:fixed;
 	}
  }
+ @media screen and (max-width: 600px) (orientation: portrait){
+	#yuzu{
+	margin-top:5%;
+	width:100%;
+	height:70%;
+	stroke-width:0.02rem;
+	}
+ }
+#size{
+  width:60%;
+  height:60%;
+}
+@media screen and (max-width: 479px) (orientation: portrait){
+	#yuzu{
+	margin-top:5%;
+	width:100%;
+	height:70%;
+	stroke-width:0.02rem;
+	}
+ }
 #size{
   width:60%;
   height:60%;
