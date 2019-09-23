@@ -1,0 +1,51 @@
+
+html,body{
+    margin:0;
+    background:  #D3D5C6;
+    font-size: calc(100vw * .03126);
+}
+  
+  /* min */
+  @media(max-width: 320px) {
+    html {
+      font-size: calc(320px * .03126);
+    }
+  }
+  
+  /* max */
+  @media(min-width: 521px) {
+    html {
+      font-size: calc(520px * .03126);
+    }
+  }
+
+
+
+
+h1{
+    font-family:Noto Serif;
+    font-weight:300;
+    font-size:3rem;
+    color:#616161;
+    margin:0;
+}
+h2,h3{
+    font-family: Muli, cursive;
+    color:#616161;
+    margin:0;
+}
+h2{
+    font-weight:400; 
+    font-size:1.25rem;
+    letter-spacing: 10px;
+}
+h3{
+    font-size:1rem;
+    margin-left:5%;
+}
+p{
+    font-size:0.8rem;
+    margin-left:5%;
+    margin:0;
+}
+

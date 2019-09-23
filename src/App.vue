@@ -2,6 +2,7 @@
   <div id="app">
     <Navigation/>
     <div class="box-sub">
+    <illustration/>
     </div>
     <div class="box-main">
       <top/>
@@ -18,6 +19,8 @@ import Navigation from './components/Navigation.vue'
 import top from './components/top.vue'
 import profile from './components/profile.vue'
 import skills from './components/skills.vue'
+import illustration from './components/illustration.vue'
+
 import Vue from "vue"
 import VueScrollTo from 'vue-scrollto'
 
@@ -31,7 +34,8 @@ export default {
     Navigation,
     top,
     profile,
-    skills
+    skills,
+    illustration
   },
   function(ctx, inject) {
   inject("scrollTo", VueScrollTo.scrollTo);
@@ -44,7 +48,7 @@ export default {
         #app {
     padding-left:20%;
     padding-right:20%;
-    padding-top:10%;
+    padding-top:5%;
   }
   .box-main, .box-sub {
   float: left;

@@ -30,9 +30,9 @@
         </svg>
       </label>
           <ul>
-            <li><label v-scroll-to="'#top'" @click="clearcheck">Top</label></li>
-            <li><label v-scroll-to="'#skills'" @click="clearcheck">Skill</label></li>
-            <li><label v-scroll-to="'#profile'" @click="clearcheck">Profile</label></li>
+            <li><label class="menuTag" v-scroll-to="'#top'" @click="clearcheck">Top</label></li>
+            <li><label class="menuTag" v-scroll-to="'#skills'" @click="clearcheck">Skill</label></li>
+            <li><label class="menuTag" v-scroll-to="'#profile'" @click="clearcheck">Profile</label></li>
           </ul>
           <label>
           <a href="https://github.com/rik8kir8rik8">
@@ -147,6 +147,9 @@ ul{
         transition: 0.5s ease-in-out;
       }
   }
+  .menuTag{
+    font-family:Noto Serif;
+  }
 
   .sns-icon{
     fill:#616161;
@@ -195,7 +198,6 @@ ul{
           transition: 0.5s ease-in-out;
        }
   }
-
 
   @media screen and (min-width: 600px) {
   #nav-content {
