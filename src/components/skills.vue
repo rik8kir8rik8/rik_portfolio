@@ -2,8 +2,8 @@
     <div id="skills">
         <h1>Skills</h1>
         <h2>Languages</h2>
-        <skilltable title="C#" subtitle="★★★" text=".NET FreameWork"/>
-        <skilltable title="VB" subtitle="★★" text=".NET FreameWork"/>
+        <skilltable title="C#" subtitle="★★★" text=".NET Freamework"/>
+        <skilltable title="VB" subtitle="★★" text=".NET Freamework"/>
         <skilltable title="JS" subtitle="★★★" text="Vue.js"/>
         <skilltable title="PHP" subtitle="★" text="Lumen,Laravel"/>
         <h2>Tools</h2>
